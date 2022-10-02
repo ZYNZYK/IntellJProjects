@@ -1,0 +1,74 @@
+why we should exclude packages and classes from compile
+if we have a syntax error in any of the file in a project, we can not run any other file  unless and until we fix error.
+Sometimes we want to execute code in some files without fixing those issue thi is where we should execute
+
+How to exclude packages?:
+     double -click the shift button twice quickly and hit enter from the pop-up window
+     type click on the + button and select the packages that you want to exclude (to Unexclude select -)
+
+How Java code is compile/executed on a computer:
+     we write the code file in extensions .java
+     once we hit the run button a sfotware programm called compiler checks this code for errors
+     and convert it to byte code.Usually sotred in a folder called bin/out.
+     JVM another software further converts this code to binary code and this binary code is what is executed on your computer.
+
+Methods in Java"
+     Method is a block of code, or some java statements(any java code that ends of ; semicolon), grouped together.
+
+Why we should learn about methods?
+     reduce amount of code thta we have to write: e.g = if a piece of code is being repeated,again and again we can create a method for it
+     and simply called that method whenever we need that logic again
+     Save time
+     avoiding repetition
+
+Syntax of creating a Method:(Method can not exist without classes)
+    we can acreate Methods only iside the class.
+    [datatype] [methodName] [(datatype variableName)] [method body]
+    [datatype] can be void (<=not returning value) just action boolean string int, etc
+    [(datatype variableName)] => used to pass data calling method
+
+How to decide When to use void and when to use a method with a return keyword? (str,int,boolean,etc)
+     IF YOU WANT TO USE THIS FURTHER, than you are not using VOID=>> use OTHER Datatype
+     If we are building a method that will be used by others or in other parts of your code which require some data
+     from your method like an "if condition" we should not create methods with void type
+Example : public static void main(String[] args) {
+noVOID           String str="hello";
+                 int length=str.length();
+                 if(!str.isEmpty()&&length%2!=0&&length>=3) {
+
+                     int middleIndex=length/2;
+                     System.out.println(str.charAt(middleIndex));
+                 }
+
+
+Types of Variables with respect to their scope:
+3 types of Variables
+1. local variables
+2. instance variables
+3. static variables
+
+1.     Local Variables that is created inside a method loop,switch case, or any block of code{} inside a curly {}start/end=>called Local VAR
+   for(inti=0;i<5;i++)
+   System.out.println(i)=>>i is a Local Var
+
+                    When we should use the local variables????
+local Var occupy computers memory for the shortest amount of time.
+We should always go with local variables if its possible, but they are limited in scope,we can't use Local Var
+outside the block in which they are declare
+
+
+2.     Instance Variables => are declared outside of block of code {} but inside a class
+    public class LocalVarDemo {
+     String name; //Instance variable inside the class but outside the block of code
+        public static void main (String[]args){
+        }
+
+****   When we are planning to create multiple objects of a class, or we want to share something in multiple variables
+methods we should go with local instance variables. They occupy the memory for longer as compare to Local Variables.
+
+3.    Static Variable has a keyword static =>exists across the methods across the objects
+        //static String name="Confused"
+
+    WHEN we should use static Variables?
+*** when we need to share smth across the objects
+maximum scope and maximum amount of time occupying memory

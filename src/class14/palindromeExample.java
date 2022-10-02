@@ -1,6 +1,6 @@
-package com.syntax;
+package class14;
 
-public class Main {
+public class palindromeExample {
 
     public static void main(String[] args) {
         // write your code here

@@ -72,3 +72,6 @@ methods we should go with local instance variables. They occupy the memory for l
     WHEN we should use static Variables?
 *** when we need to share smth across the objects
 maximum scope and maximum amount of time occupying memory
+
+
+WE CAN HAVE ONLY ONE PUBLIC CLASS IN A FILE AND THE NAME OF THAT CLASS SHOULD MATCH THE NAME OF THE FILE

@@ -1,0 +1,32 @@
+Access Modifiers:
+
+******    default throughout classes in the same package
+******   public throughout packages in the same project
+*******   private only a single class
+
+------------------------------------------------------------------------------------------------
+default throughout classes in the same package
+public throughout packages in the same project
+private only a single class
+------------------------------------------------------------------------------------------------
+
+=>>>> are key words which control the access of fields or methods or the class itself
+=>>>> these are only applicable to instance or static variables, NOT Local
+=>>>> there are four access levels and three access modifiers keywords:
+------------------------------------------------------------------------------------------------
+private => the most restricted one, if we use private keyword with any variables or method
+           We can Only access it within the same class
+
+When we we should use private modifier???????
+     we should always try to create variables as private.
+the data that we store inside the private variables is secured =>>>> Upside is Secure
+------------------------------------------------------------------------------------------------
+Default =>>> is NOT a key word, whenever we don't assign any access modifier keyword like private
+      or publicJava assigns default access level to those variables or methods.
+      The variables or methods which have default access level, can be accessed within the same class
+      or any other class that is present inside the same package.
+------------------------------------------------------------------------------------------------
+Public access modifier =>>> the most unrestricted access modifier.One used with a variable or method we can
+     access that variable or method anywhere in our project.
+------------------------------------------------------------------------------------------------
+protected

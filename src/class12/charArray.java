@@ -23,7 +23,7 @@ public class charArray {
                 }
 
             }
-            System.out.println("letter a has appread "+counter+" times");
+            System.out.println("letter a has appear "+counter+" times");
 
         }
 }

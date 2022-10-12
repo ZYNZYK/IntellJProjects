@@ -1,4 +1,4 @@
-package class18;
+package class18This;
 
 public class Task3Tester {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package class19;
+package class19Super;
 
 public class Task2 {
     /*

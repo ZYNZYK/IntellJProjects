@@ -1,7 +1,7 @@
 package class16;
 
 
-import class18.Task1;
+import class18This.Task1;
 
 public class Task1Frompck18{
 

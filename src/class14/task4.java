@@ -3,7 +3,7 @@ package class14;
 public class task4 {
     public static void main(String[] args) {
         /*
-        How you would reverse a String word by word? for example input => This is sentence i want to reverse
+        How you would reverse a String word by word? for class23.example input => This is sentence i want to reverse
 
          */
 

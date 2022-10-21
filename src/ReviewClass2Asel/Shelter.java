@@ -19,7 +19,7 @@ public class Shelter {
         dog1.name="Lucky";
         dog1.breed="german";
 
-        dog1.printInfo(); //by changing the static variable will affect other values example dog2 nd you can mess up
+        dog1.printInfo(); //by changing the static variable will affect other values class23.example dog2 nd you can mess up
         // do not change the static variables ,it will affect the instance variables,all of them
 
         double price=dog1.getPrice();

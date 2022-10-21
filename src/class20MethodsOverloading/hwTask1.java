@@ -1,4 +1,4 @@
-package class20;
+package class20MethodsOverloading;
 
 public class hwTask1 {
 

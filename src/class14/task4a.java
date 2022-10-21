@@ -4,7 +4,7 @@ public class task4a {
 
         public static void main(String[] args) {
         /*
-        How would you reverse a String word by word? for example
+        How would you reverse a String word by word? for class23.example
         input=>This is sentence I want to reverse
         output=>sihT si ecnetnes I tnaw ot esrever
          */

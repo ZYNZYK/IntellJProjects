@@ -1,10 +1,12 @@
-package class11;
+package repls;
 
-public abstract class testZ {
+//public class repl171 {
+
+abstract class test {
     abstract void parameters(String s);
     abstract void noParameters(String s);
 }
-class shop extends testZ {
+class tester extends test {
     void parameters() {
         System.out.println("m1 without parameters");
     }
@@ -22,11 +24,12 @@ class shop extends testZ {
     void noParameters(String s) {
 
     }
+}
+class repl{
 
     public static void main(String[] args) {
-        shop str = new shop();
-        testZ z = null;
-        str.parameters("m1 without parameters\n");
-        str.noParameters("m1 method with parameter\n");
+       tester t = new tester();
+        t.parameters();
+        t.noParameters();
     }
 }
